@@ -1,0 +1,181 @@
+
+/* Style the body of page */
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #ffffff;  
+    background-image: url("../images/light_grey_@2X.jpg");
+}
+/* Style the header section of page with title and navbar */
+header {
+    border-bottom: solid 2px;
+    margin-top: -17px;
+    height: 74px;
+    width: 100%;
+    background-color: #ffffff;  
+    border-color: #cccccc;
+}
+
+/* Style the header */
+h1 {
+    margin-left:359px;
+    margin-top: -17px;
+    padding: 28px 30px 8px 30px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 58px;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+
+/* Style the navbar buttons */
+ul {
+    list-style-type: none;
+    padding-top: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-right: 350px;
+}
+
+
+li a {
+    text-align: center;
+    vertical-align: text-bottom;
+    padding: 10px 12px;;
+    text-decoration: none;
+    color: #777777;
+    float: right;
+}
+
+/* Change the nav links color to teal #4aaaa5 on hover */
+li a:hover {
+    color: #4aaaa5;
+}
+
+/* Style the main content area of page */
+section {
+    padding-top: 20px;
+    background-color: #ffffff;  
+    width: 960px;
+    margin: auto;
+    margin-top: 30px;
+    border: solid 1px;
+    border-color: #dddddd; 
+  }
+
+/* Style heading 2 */
+
+h2 {
+    margin-left: 25px;
+    margin-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    color:#4aaaa5;
+    border-bottom: solid 3px;
+    border-bottom-color: #dddddd;
+}
+
+/* Style the image on about page*/
+#bio-image {
+    width: 135px;
+    height: 210px;
+    padding: 10px 15px 10px 30px;
+    float: left;
+}
+
+/* Style the paragraph content of main area*/
+p {
+    padding: 5px 10px 5px 10px;
+    text-size: 14px;
+    line-height: 1.6;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Style and position the images and text on portfoliio page */
+
+.image {
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+
+.container1 {
+    padding: 35px;
+    width:200px;
+    float: left;
+}
+
+.container2 {
+    padding: 35px;
+    width:200px;
+    float: left;
+}
+
+.container3 {
+    padding: 35px;
+    width:200px;
+}
+
+
+.textbox {
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 5px;
+    width: 190px;
+    position: relative;
+    bottom: 36px;
+    z-index: 10;
+}
+
+
+/* Style the email form of contact page */
+form {
+    margin-left: 25px;
+}
+
+input[type=text] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+}
+
+input[type=email] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+}
+
+input [type=textarea] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+}
+
+input[type=submit] {
+    padding:10px 15px; 
+    background: #4aaaa5; 
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px; 
+    margin-bottom: 10px;
+}
+
+/* Style the footer of page */
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: #666666;
+    height: 60px;
+    width: 100%;
+    border-top: solid 8px;
+    border-color: #4aaaa5;
+}
