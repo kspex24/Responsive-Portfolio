@@ -4,6 +4,8 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic Portfolio</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -12,22 +14,24 @@
 <body>
   
 <!--Create header with title and nav bar -->
-    <header>
-        <h1>Kristen M. Speckhals</h1>
-    
-            <ul>
-            
-            <li><a href="contact.html">Contact</a> </li>
-            <li><a href="portfolio.html">Portfolio&nbsp;&nbsp;&nbsp;|</a></li>
-            <li><a href="index.html">About&nbsp;&nbsp;&nbsp;|</a></li>
-    
-            </ul>
-        </header>
+<header id="headerinfo">
+        <div class="container">
+    <a href="index.html" id="name">Kristen M. Speckhals</a>
+
+        <nav>
+        
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a> 
+
+        </nav>
+        </div>
+    </header>
 
 <!--Create gallery of images with text labels -->
-<section>
-
-<h2>Portfolio</h2>  
+<div id="main-content" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
 <div class="container1">
   <img class="image" src="assets/images/image1.jpg" alt="image of ipad rainbow flashlight app">
@@ -51,12 +55,15 @@
   
 </section>
 
+</div>
+
 <!--Create footer-->
 
 <footer>
-    <p>Copyright &copy;</p>
-</footer>
-
+        <div class="container">
+          Copyright &copy; 
+        </div>
+      </footer>
 </body>
 
 </html>
