@@ -9,6 +9,7 @@ body {
 }
 
 
+
 /* Style the header section of page with title and navbar */
 
   
@@ -122,10 +123,10 @@ h3, h2 {
   
   .main-section {
     float: left;
-    width: 100%;
+    width: 60%;
     max-width: 960px;
-    padding: 30px;
-    margin: 0 0 40px;
+    padding: 10px;
+    margin: 0 20px 10px 0px;
     background: #fff;
     border: 1px solid #ddd;
   }
@@ -200,7 +201,7 @@ input[type=text],
 input[type=email],
 textarea {
   display: block;
-  width: 100%;
+  width: 90%;
 }
 
 input[type=text],
@@ -221,7 +222,7 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: ß#4aaaa5;
+  background: #4aaaa5;
   border: 0 none;
 }
 
@@ -231,8 +232,8 @@ input[type=submit] {
 .sidebar {
   float: right;
   margin: auto;
-  width: 100%;
-  max-width: 270px;
+  width: 50%;
+  max-width: 220px;
   padding: 30px;
   background: #fff;
   border: 1px solid #ddd;
@@ -258,23 +259,20 @@ h3,
 
 /* Style the footer of page */
 footer {
-    padding: 30px 0;
-    clear: both;
-    font-size: 12px;
-    color: #fff;
-    color: #ccc;
-    text-align: center;
-    background: #666;
-    border-top: 8px solid #4aaaa5;
-    height: 50px;
-  }
+  position: absolute;
+  margin-bottom: 0;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  background-color: #666666;
+  height: 30px;
+  width: 100%;
+  border-top: solid 8px;
+  border-color: #4aaaa5;
+}
 
-h3, h2 {
-    padding-bottom: 20px;
-    margin-bottom: 15px;
-    line-height: 22px;
-    border-bottom: 2px solid #eee;
-  }
+
 
 /*Media Queries*/
 
@@ -297,14 +295,40 @@ nav {
 }
 
 .main-section {
-  width: auto;
+  width: 65%;
+}
+
+h1 {
+  padding:0px;
+}
+
+p {
+  padding: 0px;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+
+.sidebar {
+  padding-right: 20px;
+  width: 30%;
 }
 
   #bio-image {
     float: none;
+    width: 120px;
+    height: 180px;
+   
 }
 
 
+/* Footer is messed up in 768px screen width. Can't figure it out!! */
 @media only screen and (max-width: 768px) {
 
 
@@ -315,10 +339,18 @@ nav {
   margin-left: -55px;
 }
 
-  .section {
-    width: 100%;
+  .main-section {
+    float: none;
+    width:80%;
     margin: auto;
-    clear: both;
+  }
+  
+  .sidebar {
+    float: none;
+    padding-left: 50px;
+    padding-right: 360px;
+    width: 100%;
+    margin: 68px; 
   }
 
 #bio-image {
@@ -347,5 +379,13 @@ nav {
 
     #bio-image {
       float: none;
+    }
+
+    .sidebar {
+      float: none;
+      padding-left: 50px;
+      padding-right: 255px;
+      width: 100%;
+      margin: 55px; 
     }
   }
